@@ -1,0 +1,28 @@
+User-agent: *
+Disallow: /desarrollo1
+Disallow: /desarrollo2
+Disallow: /desarrollo3
+Disallow: /home.html
+Disallow: /index2.html
+Disallow: /404.shtml
+Disallow: /blog/wp-admin
+Disallow: /portafolio
+Disallow: /author/admin
+Disallow: /preguntas-frecuentes
+Disallow: /servicios/diseno-web
+Disallow: /servicios/google-adwords
+Disallow: /pages/index.html
+Disallow: /comunicate-con-nosotros
+Disallow: /category/sin-categoria
+Disallow: /servicios/e-marketing
+Disallow: /servicios/diseno-de-identidad-visual
+Disallow: /titulo-de-la-publicacion-en-el-blog
+Disallow: /seo-la-herramienta-que-marca-la-diferencia-en-el-marketing
+
+
+Allow: /blog
+Allow: /servicios
+Allow: /en
+Allow: /index.html
+
+Sitemap: http://www.oderbiz.com/sitemap.xml

@@ -1,0 +1,2071 @@
+@font-face {
+  font-family: 'SansationBold';
+  src: url('../font/Sansation_Bold.ttf');
+}
+@font-face {
+  font-family: 'LatoLight';
+  src: url('../font/Lato-Light.ttf');
+}
+@font-face {
+  font-family: 'LatoSemibold';
+  src: url('../font/Lato-Semibold.ttf');
+}
+/*ENCABEZADO*/
+.header{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  margin-top:0;
+  height:90px;
+  padding-top:0px;
+  z-index:2;
+
+}
+.header .bar{
+  position: relative;
+  width: 100%;
+}
+.header .bar #logo{
+  position: relative;
+  text-decoration: none;
+  top: 15px;
+  left: 50px;
+  width: 0px;
+  z-index: 2;
+}
+.header .bar #logo #img1{
+  display: block;
+  width: 110px;
+  height: 40px;
+  position: absolute;
+  background-image: #FFF;
+  -webkit-transition: all 300ms linear;
+  -moz-transition: all 300ms linear;
+  -o-transition: all 300ms linear;
+  -ms-transition: all 300ms linear;
+  transition: all 300ms linear;
+
+}
+.header .bar #logo #img2{
+  top: 8px;
+  display: none;
+  width: 110px;
+  height: 40px;
+  position: absolute;
+  background-image: #FFF;
+  -webkit-transition: all 300ms linear;
+  -moz-transition: all 300ms linear;
+  -o-transition: all 300ms linear;
+  -ms-transition: all 300ms linear;
+  transition: all 300ms linear;
+
+}
+.header .bar #traduction{
+  font-family: 'LatoSemibold';
+  color: #51247F;
+  position: relative;
+  float: right;
+  top: 30px;
+  right: 100px;
+  padding: 0;
+}
+.header .bar #traduction a{
+  text-decoration-color: #51247F;
+  text-decoration: none;
+}
+.header .bar #toggle{
+  position: relative;
+  float: right;
+  text-decoration: none;
+  top: 13px;
+  right: 10px;
+  z-index: 20;
+}
+.header .bar #toggle img{
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  display: none;
+  right: 0px;
+  background-color: inherit;
+  top: 17px;
+}
+.header .bar #toggle ul{
+  position: absolute;
+  right: 0;
+  /*border: 1px solid red;*/
+  padding: 0;
+}
+.header .bar #toggle ul li{
+  display: block;
+  padding: 2.2px 13px;
+  position: relative;
+  background-color: #51247F;
+  z-index: 20;
+  margin: 0 0 5px;
+  border-radius: 10px;
+}
+
+.header .bar #toggle ul:hover li{
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.HomeImg{
+  width: 600px;
+  height: 400px;
+}
+#nav-background{
+  display: none;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  margin: 0;
+}
+#nav-fondo{
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background-color: #51247F;
+  opacity: 0.8;
+  z-index: 200;
+  position: fixed;
+}
+#redes{
+    top: 20%;
+    margin: 0;
+    margin-left: 35%;    
+    padding: 0;
+    width: 30%;
+    position: relative;
+    z-index: 300;
+}
+#redes li{
+  display: inline-block;
+  position: relative;
+  
+}
+#redes  li a{
+  text-decoration: none;
+  padding: 0.1em;
+}
+
+#redes  li a img{
+  width: 60px;
+  height: 60px;
+}
+#nav-modal{
+  margin: 0;
+  margin-left: -40px;
+  position: relative;
+  top: 20%;
+  z-index: 300;
+}
+
+
+#nav-modal a{
+  width: 100%;
+  display: block;
+  height: 100px;
+  z-index: 300;
+  text-decoration: none;
+}
+
+#nav-modal a li{
+  width: 100%;
+  height: 100%;
+  font-size: 60px;
+  color: #FFF;
+  z-index: 300;
+  display: inline-block;
+}
+
+#nav-modal a:hover{
+  background-color: #FFF;
+}
+#nav-modal a:hover li{
+  color: #51247F;
+}
+.flecha-down1{
+    position: absolute;
+    top: 87%;
+    left: 50%;
+    width: 58px;
+    height: 60px;
+}
+.flecha-down2{
+  position: absolute;
+  top: 87%;
+  left: 50%;
+  width: 58px;
+  height: 60px;
+}
+.flecha-down3{
+  position: absolute;
+  top: 87%;
+  left: 50%;
+  width: 58px;
+  height: 60px;
+}
+.flecha-down4{
+  position: absolute;
+  top: 91%;
+  left: 50%;
+  width: 58px;
+  height: 60px;
+}
+/*MARKETING DIGITAL & SOCIAL MEDIA*/
+.titulo{
+    font-size: 400%;
+    font-family: 'SansationBold';
+    color: #fff;
+    margin-bottom: 100px;
+}
+
+.subtitulo {
+    font-size: 200%;
+    font-family: 'LatoLight';
+    color: #fff;
+}
+
+.section{
+    text-align:center;
+    margin: 0;
+    position: relative;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.layer{
+    position: absolute;
+    top: 40%;
+    right: 4%;
+    transform: translate(-50%, -50%);
+    text-align: right;
+}
+.layer1{
+    position: absolute;
+    top: 40%;
+    right: 9%;
+    transform: translate(-50%, -50%);
+    text-align: right;
+}
+.sublayer{
+    position: absolute;
+    top: 60%;
+    right: 5%;
+    transform: translate(-50%, -50%);
+    text-align: right;
+}
+.sublayer1{
+    position: absolute;
+    top: 60%;
+    right: 7%;
+    transform: translate(-50%, -50%);
+    text-align: right;
+}
+/*fin Marketing Digital & Social Media*/
+/*HOLA*/
+.contenedor {
+    overflow: hidden;
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+.izq {
+    width: 50%;
+    float: left;
+    position: relative;
+}
+.der {
+    width: 50%;
+    float: left;
+    position: relative;
+}
+
+.hola{
+    font-family: 'LatoLight';
+    color: #51247F;
+    font-size: 800%;
+}
+
+.somos {
+  position: relative;
+    font-size: 200%;
+    font-family: 'LatoLight';
+    color: #51247F;
+}
+
+.queremos{
+  position: relative;
+    text-align: right;
+    font-size: 200%;
+    font-family: 'LatoLight';
+    color: #51247F;
+}
+
+/*FIN HOLA*/
+
+/*FORMULARIO*/
+.item {
+    position: relative;
+    border: solid 1px #51247F;
+    width: 50%;
+    height: 40px;
+}
+.comentario{
+    height: 70px;
+}
+.mc-field-group{
+  font-family: 'LatoLight';
+  color: #51247F;
+}
+#mce-responses{
+  font-family: 'SansationBold';
+  color: #51247F;
+  position: relative;
+  width: 65%;
+  right: -15%;
+  /*padding-bottom: 10px;*/
+}
+.item1{
+    left: -6px;
+}
+.boton{
+    width: 40%;
+    height: 50px;
+    background-color: #51247F;
+    font-size: 100%;
+    color: white;
+    top: 15px;
+}
+.indicates-required{
+  font-family:  'LatoLight';
+  color: #51247F;
+  position: relative;
+  bottom: 4px;
+  right: -45px;
+
+}
+.asterisk{
+  font-family:  'LatoLight';
+  color: red;
+  position: relative;
+  right: 2px;
+  margin: 0;
+  font-size: 20px;
+}
+
+input{
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px;
+}
+
+button {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px;
+}
+
+*::-webkit-input-placeholder {
+    font-family: LatoLight;
+    color: #51247F;
+}
+*:-moz-placeholder {
+    font-family: LatoLight;
+    color: #51247F;
+}
+*::-moz-placeholder {
+    font-family: LatoLight;
+    color: #51247F;
+}
+*:-ms-input-placeholder {
+    font-family: LatoLight;
+    color: #51247F;
+}
+/*FIN FORMULARIO*/
+
+/*BOTONES*/
+.tabla {
+    position: relative;
+    width: 75%;
+    height: 970px;
+    margin-right: 2.5%;
+    margin-left: 12%;
+    border-collapse: collapse;
+    top: 0;
+}
+.contrary{
+  text-decoration: none;
+  text-align: left;
+  display: block;
+  color: #FFF;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: #51247F;
+  overflow: hidden;
+  top: 0;
+  -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+  -moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+  -webkit-transition: all 300ms linear;
+  -moz-transition: all 300ms linear;
+  -o-transition: all 300ms linear;
+  -ms-transition: all 300ms linear;
+  transition: all 300ms linear;
+}
+.contrary2{
+  text-decoration: none;
+  text-align: left;
+  display: block;
+  color: #51247F;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: #FFF;
+  overflow: hidden;
+  top: 0;
+  -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+  -moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+  -webkit-transition: all 300ms linear;
+  -moz-transition: all 300ms linear;
+  -o-transition: all 300ms linear;
+  -ms-transition: all 300ms linear;
+  transition: all 300ms linear;
+}
+.text1 {
+    font-family: 'LatoLight';
+    font-style: italic;
+    margin-left: 10%;
+    margin-right: 15%;
+    position: absolute;
+    top: 0;
+    -webkit-transition: all 200ms linear;
+    -moz-transition: all 200ms linear;
+    -o-transition: all 200ms linear;
+    -ms-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+.text2 {
+    font-family: 'SansationBold';
+    position: absolute;
+    right: 20px;
+    bottom: 0px;
+    -webkit-transition: all 200ms linear;
+    -moz-transition: all 200ms linear;
+    -o-transition: all 200ms linear;
+    -ms-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+.text3 {
+    font-family: 'SansationBold';
+    position: absolute;
+    left: 20;
+    top: 0;
+    -webkit-transition: all 200ms linear;
+    -moz-transition: all 200ms linear;
+    -o-transition: all 200ms linear;
+    -ms-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+.text4 {
+    font-family: 'LatoLight';
+    font-style: italic;
+    position: absolute;
+    left: 20;
+    top: 45;
+    -webkit-transition: all 200ms linear;
+    -moz-transition: all 200ms linear;
+    -o-transition: all 200ms linear;
+    -ms-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+
+.textClave {
+    font-family: 'SansationBold';
+    color: #EAC141;
+}
+.contrary:hover{
+    background-color: #FFF;
+}
+.contrary2:hover{
+    background-color: #51247F;
+}
+.contrary:hover .text1{
+    color: #51247F;
+    -webkit-animation: smallToBig 300ms ease;
+    -moz-animation: smallToBig 300ms ease;
+    -ms-animation: smallToBig 300ms ease;
+}
+.contrary2:hover .text1{
+    color: #FFF;
+    -webkit-animation: smallToBig 300ms ease;
+    -moz-animation: smallToBig 300ms ease;
+    -ms-animation: smallToBig 300ms ease;
+}
+.contrary:hover .text2{
+    color: #51247F;
+    -webkit-animation: moveFromBottom 500ms ease;
+    -moz-animation: moveFromBottom 500ms ease;
+    -ms-animation: moveFromBottom 500ms ease;
+}
+.contrary2:hover .text2{
+    color: #FFF;
+    -webkit-animation: moveFromBottom 500ms ease;
+    -moz-animation: moveFromBottom 500ms ease;
+    -ms-animation: moveFromBottom 500ms ease;
+}
+.contrary:hover .text3{
+    color: #51247F;
+    -webkit-animation: moveFromBottom 500ms ease;
+    -moz-animation: moveFromBottom 500ms ease;
+    -ms-animation: moveFromBottom 500ms ease;
+}
+.contrary:hover .text4{
+    color: #51247F;
+    -webkit-animation: moveFromBottom 500ms ease;
+    -moz-animation: moveFromBottom 500ms ease;
+    -ms-animation: moveFromBottom 500ms ease;
+}
+.contrary2:hover .text5{
+    color: #FFF;
+    -webkit-animation: moveFromBottom 500ms ease;
+    -moz-animation: moveFromBottom 500ms ease;
+    -ms-animation: moveFromBottom 500ms ease;
+}
+.ca{
+    position: absolute;
+  	width: 25%;
+  	height: 190px;
+    left: 50%;
+    color: #51247F;
+}
+.ca1{
+  float: left;
+  margin-top: 190px;
+  left: 25%;
+  position: absolute;
+  width: 25%;
+  height: 210px;
+  color: #51247F;
+}
+.ca2{
+  float: right;
+	margin-top: 400px;
+	right: 0;
+	position: absolute;
+	width: 25%;
+	height: 210px;
+  color: #51247F;
+}
+.ca3{
+  float: left;
+	margin-top: 610px;
+	left: 0;
+	position: absolute;
+	width: 50%;
+	height: 210px;
+  color: #51247F;
+}
+.tdImg0 {
+    position: absolute;
+    width: 50%;
+  	height: 190px;
+    left: 0;
+    overflow: hidden;
+}
+.tdImg0 img {
+    position: relative;
+    -webkit-transition:all .9s ease; /* Safari y Chrome */
+    -moz-transition:all .9s ease; /* Firefox */
+    -o-transition:all .9s ease; /* IE 9 */
+    -ms-transition:all .9s ease; /* Opera */
+    top: 0px;
+    border-bottom: 0px;
+    width:100%;
+    height: 100%;
+}
+.tdImg0:hover img {
+    -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    -o-transform:scale(1.25);
+    transform:scale(1.25);
+}
+.tdImg1{
+    float: right;
+    right: 0;
+    position: absolute;
+    width: 25%;
+    height: 400px;
+    overflow: hidden;
+}
+.tdImg1 img {
+    position: relative;
+    -webkit-transition:all .9s ease; /* Safari y Chrome */
+    -moz-transition:all .9s ease; /* Firefox */
+    -o-transition:all .9s ease; /* IE 9 */
+    -ms-transition:all .9s ease; /* Opera */
+    top: 0px;
+    border-bottom: 0px;
+    width:100%;
+    height: 100%;
+}
+.tdImg1:hover img {
+    -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    -o-transform:scale(1.25);
+    transform:scale(1.25);
+}
+.tdImg2{
+    float: left;
+    left: 0;
+  	position: absolute;
+  	width: 25%;
+  	height: 420px;
+    margin-top: 190px;
+    overflow: hidden;
+}
+.tdImg2 img {
+    position: relative;
+    -webkit-transition:all .9s ease; /* Safari y Chrome */
+    -moz-transition:all .9s ease; /* Firefox */
+    -o-transition:all .9s ease; /* IE 9 */
+    -ms-transition:all .9s ease; /* Opera */
+    top: 0px;
+    border-bottom: 0px;
+    width:100%;
+    height: 100%;
+}
+.tdImg2:hover img {
+    -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    -o-transform:scale(1.25);
+    transform:scale(1.25);
+}
+.tdImg3{
+    float: left;
+  	margin-top: 190px;
+  	left: 50%;
+  	position: absolute;
+  	width: 25%;
+  	height: 210px;
+    overflow: hidden;
+}
+.tdImg3 img {
+    position: relative;
+    -webkit-transition:all .9s ease; /* Safari y Chrome */
+    -moz-transition:all .9s ease; /* Firefox */
+    -o-transition:all .9s ease; /* IE 9 */
+    -ms-transition:all .9s ease; /* Opera */
+    top: 0px;
+    border-bottom: 0px;
+    width:100%;
+    height: 100%;
+}
+.tdImg3:hover img {
+    -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    -o-transform:scale(1.25);
+    transform:scale(1.25);
+}
+.tdImg4{
+    float: left;
+    margin-top: 400px;
+    left: 25%;
+    position: absolute;
+    width: 25%;
+    height: 210px;
+    overflow: hidden;
+}
+.tdImg4 img {
+    position: relative;
+    -webkit-transition:all .9s ease; /* Safari y Chrome */
+    -moz-transition:all .9s ease; /* Firefox */
+    -o-transition:all .9s ease; /* IE 9 */
+    -ms-transition:all .9s ease; /* Opera */
+    top: 0px;
+    border-bottom: 0px;
+    width:100%;
+    height: 100%;
+}
+.tdImg4:hover img {
+    -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    -o-transform:scale(1.25);
+    transform:scale(1.25);
+}
+.tdImg5{
+    float: left;
+    margin-top: 400px;
+    left: 50%;
+    position: absolute;
+    width: 25%;
+    height: 420px;
+    overflow: hidden;
+}
+.tdImg5 img {
+    position: relative;
+    -webkit-transition:all .9s ease; /* Safari y Chrome */
+    -moz-transition:all .9s ease; /* Firefox */
+    -o-transition:all .9s ease; /* IE 9 */
+    -ms-transition:all .9s ease; /* Opera */
+    top: 0px;
+    border-bottom: 0px;
+    width:100%;
+    height: 100%;
+}
+.tdImg5:hover img {
+    -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    -o-transform:scale(1.25);
+    transform:scale(1.25);
+}
+.tdImg6{
+    float: right;
+  	margin-top: 610px;
+  	right: 0;
+  	position: absolute;
+  	width: 25%;
+  	height: 210px;
+    overflow: hidden;
+}
+.tdImg6 img {
+    position: relative;
+    -webkit-transition:all .9s ease; /* Safari y Chrome */
+    -moz-transition:all .9s ease; /* Firefox */
+    -o-transition:all .9s ease; /* IE 9 */
+    -ms-transition:all .9s ease; /* Opera */
+    top: 0px;
+    border-bottom: 0px;
+    width:100%;
+    height: 100%;
+}
+.tdImg6:hover img {
+    -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    -o-transform:scale(1.25);
+    transform:scale(1.25);
+}
+.tdImg7{
+  display: none;
+  position: absolute;
+  overflow: hidden;
+}
+.tdImg7 img {
+    position: relative;
+    -webkit-transition:all .9s ease; /* Safari y Chrome */
+    -moz-transition:all .9s ease; /* Firefox */
+    -o-transition:all .9s ease; /* IE 9 */
+    -ms-transition:all .9s ease; /* Opera */
+    top: 0px;
+    border-bottom: 0px;
+    width:100%;
+    height: 100%;
+}
+.tdImg7:hover img {
+    -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    -o-transform:scale(1.25);
+    transform:scale(1.25);
+}
+
+/*FIN BOTONES*/
+
+/*CONTACTOS*/
+#OderbizContactos{
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 40px;
+  height: 450px;
+  width: 100%;
+  background-color: #51247F;
+}
+#OderbizContactos ul{
+  position: relative;
+  top: 20px;
+  display: inline-block;
+}
+#OderbizContactos ul li{
+  width: 350px;
+  height: 150px;
+  display: inline-block;
+}
+.letra2{
+  font-size: 30px;
+  font-family: 'SansationBold';
+}
+.li1{
+  font-size: 20px;
+  font-family: 'LatoLight';
+  border-right: 1px solid white;
+}
+.li2{
+  font-size: 20px;
+  font-family: 'LatoLight';
+  border-right: 1px solid white;
+}
+.li3{
+  font-size: 20px;
+  font-family: 'LatoLight';
+}
+.h1{
+  font-family: 'SansationBold';
+  position: relative;
+  top: 80px;
+  font-size: 50px;
+}
+.p{
+  font-family: 'LatoLight';
+  position: relative;
+  top: 20px;
+  font-size: 30px;
+}
+.footer-contactos{
+  font-family: 'LatoLight';
+  color: #411C75;
+  position: relative;
+  bottom: 0;
+  text-align: center;
+  top: 40px;
+  width: 85%;
+  margin-left: 3em;
+}
+.encuentranos{
+  position: relative;
+  font-size: 20px;
+  left: 35px;
+}
+.list-iconos-contactos{
+  position: relative;
+  width: 100%;
+  /*border-bottom: 1px solid #411C75;*/
+}
+.list-iconos-contactos li{
+  display: inline-block;
+  position: relative;
+  margin: 0 0.5em;
+}
+.list-iconos-contactos li a{
+  text-decoration: none;
+  padding: 0.2em;
+}
+.list-iconos-contactos li a img{
+  width: 60px;
+  height: 60px;
+}
+/*FIN CONTACTOS*/
+
+/*FOOTER*/
+.footer{
+  color: #411C75;
+  position: relative;
+  bottom: 0;
+  text-align: center;
+  margin-top: 70px;
+  width: 85%;
+  margin-left: 3em;
+}
+.list-iconos{
+  margin: 20px 0;
+  position: relative;
+  width: 100%;
+  border-bottom: 1px solid #411C75;
+}
+.list-iconos li{
+  display: inline-block;
+  position: relative;
+  margin: 20px 0.5em;
+}
+.list-iconos li a{
+  text-decoration: none;
+  padding: 0.2em;
+}
+.list-iconos li a img{
+  width: 60px;
+  height: 60px;
+}
+.list-contactos{
+  width: 100%;
+  margin: 30px 0 40px;
+  position: relative;
+}
+.list-contactos li{
+  font-family: 'LatoLight';
+  display: inline-block;
+  margin: 0 1em;
+  font-size: 20px;
+}
+/*FIN FOOTER*/
+/*Media queris para hacer la pagina responsive segun su tamaño*/
+/*PCs de escritorio*/
+@media screen and (max-width: 2560px) {
+  .HomeImg{
+    position: absolute;
+    /*border: 0.1px solid red;*/
+    top: 35%;
+    left: 35%;
+    width: 700px;
+    height: 350px;
+  }
+  /*HEADER*/
+  .header .bar #logo #img1{
+    width: 110px;
+    height: 50px;
+  }
+  .header .bar #logo #img2{
+    top: 5px;
+    width: 110px;
+    height: 38px;
+  }
+  .header .bar #toggle ul li{
+    padding: 2.2px 13px;
+    border-radius: 10px;
+  }
+  .header .bar #toggle img{
+    width: 25px;
+    height: 25px;
+  }
+  /*FIN HEADER*/
+  /*MARKETING DIGITAL & SOCIAL MEDIA*/
+  .layer{
+    margin: 0;
+    top: 40%;
+    text-align: right;
+    right: 9%;
+  }
+  .sublayer{
+    margin: 0;
+    text-align: right;
+    top: 60%;
+    right: 7%;
+  }
+  .layer1{
+    margin: 0;
+    top: 40%;
+    text-align: right;
+    right: 12%;
+  }
+  .sublayer1{
+    margin: 0;
+    text-align: right;
+    top: 60%;
+    right: 7%;
+  }
+  .titulo{
+    font-size: 110px;
+  }
+  .subtitulo{
+    font-size: 70px;
+  }
+  /*FIN MARKETING DIGITAL & SOCIAL MEDIA*/
+  /*HOLA*/
+  .contenedor {
+    width: 95%;
+    margin-left: 0;
+  }
+  .izq{
+    width: 50%;
+    position: relative;
+    float: left;
+  }
+  .der{
+    width: 50%;
+    position: relative;
+    float: right;
+  }
+  .somos{
+    font-size: 40px;
+    left: 190px;
+  }
+  .queremos{
+    font-size: 35px;
+    left: 30px;
+  }
+  .item{
+    height: 3%;
+  }
+  .comentario{
+    height: 5%;
+  }
+  /*FIN HOLA*/
+  /*TABLA*/
+  .tabla {
+      position: relative;
+      width: 70%;
+      height: 970px;
+      margin-right: 2.5%;
+      margin-left: 15%;
+      border-collapse: collapse;
+      margin-top: 85px;
+  }
+  .text1{
+    font-size: 25px;
+    left: 35px;
+  }
+  .text4{
+    font-size: 25px;
+    left: 35px;
+  }
+  .text2{
+    font-size: 40px;
+    left: 35px;
+  }
+  .text3{
+    font-size: 40px;
+    left: 35px;
+  }
+  /*fin tabla*/
+  /*footer*/
+  .footer{
+    width: 92%;
+    margin-left: 5em;
+  }
+  /*fin footer*/
+}
+
+/*PCs Portatiles L*/
+@media screen and (max-width: 1440px) {
+  .HomeImg{
+    position: absolute;
+    /*border: 0.1px solid red;*/
+    top: 28%;
+    left: 25%;
+    width: 600px;
+    height: 300px;
+  }
+  /*HEADER*/
+  .header .bar #logo #img1{
+    width: 110px;
+    height: 50px;
+  }
+  .header .bar #logo #img2{
+    top: 5px;
+    width: 110px;
+    height: 38px;
+  }
+  .header .bar #toggle ul li{
+    padding: 2.2px 13px;
+    border-radius: 10px;
+  }
+  .header .bar #toggle img{
+    width: 25px;
+    height: 25px;
+  }
+  /*FIN HEADER*/
+  /*MARKETING DIGITAL & SOCIAL MEDIA*/
+  .layer{
+    margin: 0;
+    top: 40%;
+    text-align: right;
+    right: 6%;
+  }
+  .sublayer{
+    margin: 0;
+    text-align: right;
+    top: 60%;
+    right: 5%;
+  }
+  .layer1{
+    margin: 0;
+    top: 40%;
+    text-align: right;
+    right: 11%;
+  }
+  .sublayer1{
+    margin: 0;
+    text-align: right;
+    top: 60%;
+    right: 7%;
+  }
+  .titulo{
+    font-size: 70px;
+  }
+  .subtitulo{
+    font-size: 40px;
+  }
+  /*FIN MARKETING DIGITAL & SOCIAL MEDIA*/
+  /*HOLA*/
+  .contenedor{
+    width: 95%;
+    margin-left: 0;
+  }
+  .izq{
+    width: 60%;
+    position: relative;
+    float: left;
+  }
+  .der{
+    width: 40%;
+    position: relative;
+    float: right;
+  }
+  .hola{
+    font-size: 100px;
+  }
+  .somos{
+    font-size: 25px;
+    left: 130px;
+  }
+  .queremos{
+    font-size: 20px;
+    left: 30px;
+  }
+  .item{
+    height: 30px;
+  }
+  .comentario{
+    height: 70px;
+  }
+  /*fin hola*/
+  /*TABLA*/
+  .tabla {
+      width: 75%;
+      height: 970px;
+      margin-right: 0;
+      margin-left: 12%;
+      border-collapse: collapse;
+      top: 0;
+  }
+  .text1{
+    font-size: 20px;
+  }
+  .text4{
+    font-size: 20px;
+  }
+  .text2{
+    font-size: 30px;
+    left: 35px;
+  }
+  .text3{
+    font-size: 30px;
+    left: 35px;
+  }
+  /*fin tabla*/
+  /*footer*/
+  .footer{
+    width: 85%;
+    margin-left: 70px;
+  }
+  .list-contactos li{
+    margin: 0 20px;
+    font-size: 18px;
+  }
+  /*fin footer*/
+}
+/*PCs Portatiles M*/
+@media screen and (max-width: 1024px) {
+  .HomeImg{
+    position: absolute;
+    /*border: 0.1px solid red;*/
+    top: 33%;
+    left: 25%;
+    width: 500px;
+    height: 250px;
+  }
+  /*HEADER*/
+  .header .bar #logo{
+    top: 15px;
+    left: 30px;
+  }
+  #nav-modal{
+      top: 15%;
+    }
+  #nav-modal a li{
+     font-size: 45; 
+    }
+  #redes{
+    top: 15%;
+    margin-left: 30%;
+    width: 40%;
+    }
+  #redes  li a img{
+      width: 50px;
+      height: 50px;
+    }
+  /*FIN HEADER*/
+  /*MARKETING DIGITAL & SOCIAL MEDIA*/
+  .layer{
+    margin: 0;
+    top: 45%;
+    text-align: right;
+    right: 8%;
+  }
+  .sublayer{
+    margin: 0;
+    text-align: right;
+    top: 60%;
+    right: 8.3%;
+  }
+  .layer1{
+    margin: 0;
+    top: 45%;
+    text-align: right;
+    right: 11%;
+  }
+  .sublayer1{
+    margin: 0;
+    text-align: right;
+    top: 60%;
+    right: 8.4%;
+  }
+  .titulo{
+    font-size: 50px;
+  }
+  .subtitulo{
+    font-size: 25px;
+  }
+  /*FIN MARKETING DIGITAL & SOCIAL MEDIA*/
+  /*HOLA*/
+  .contenedor{
+    width: 100%;
+    margin-left: -10px;
+  }
+  .izq{
+    width: 50%;
+  }
+  .der{
+    width: 50%;
+  }
+  .hola{
+    font-size: 90px;
+  }
+  .somos{
+    font-size: 20px;
+    left: 110px;
+  }
+  .queremos{
+    font-size: 15px;
+    left: 40px;
+  }
+  .item{
+    height: 4%;
+  }
+  .comentario{
+    height: 10%;
+  }
+  /*fin hola*/
+  /*TABLA*/
+  .tabla {
+      width: 75%;
+      height: 970px;
+      margin-right: 0;
+      margin-left: 13%;
+      border-collapse: collapse;
+      top: 0;
+  }
+  .text2{
+    font-size: 23px;
+    left: 35px;
+  }
+  .text3{
+    font-size: 23px;
+    left: 35px;
+  }
+  /*fin tabla*/
+  /*footer*/
+  .footer{
+    width: 85%;
+    margin-left: 55px;
+  }
+  .list-iconos li a img{
+    width: 50px;
+    height: 50px;
+  }
+  .list-contactos li{
+    margin: 0 10px;
+    font-size: 15px;
+  }
+  /*fin footer*/
+  /*CONTACTOS*/
+  #OderbizContactos ul li{
+    width: 280px;
+  }
+    .li1{
+      font-size: 16px;
+    }
+    .li2{
+      font-size: 16px;
+    }
+    .li3{
+      font-size: 16px;
+    }
+  /*FIN CONTACTOS*/
+}
+/*Tablets*/
+@media screen and (max-width: 768px) {
+  .HomeImg{
+    position: absolute;
+    /*border: 0.1px solid red;*/
+    top: 33%;
+    left: 20%;
+    width: 400px;
+    height: 200px;
+  }
+  /*HEADER*/
+  .header .bar #logo{
+    top: 15px;
+    left: 15px;
+  }
+  .header .bar #traduction{
+    right: 90px;
+  }
+  .header .bar #toggle{
+    top: 15px;
+    right: 0;
+  }
+  .header .bar #logo #img1{
+    width: 110px;
+    height: 50px;
+  }
+  .header .bar #logo #img2{
+    /*display: block;*/
+    top: 5px;
+    width: 110px;
+    height: 38px;
+  }
+
+  /*FIN HEADER*/
+  /*MARKETING DIGITAL & SOCIAL MEDIA*/
+  .flecha-down1{
+  width: 38px;
+  height: 40px;
+  }
+  .flecha-down2{
+
+    width: 38px;
+    height: 40px;
+  }
+  .flecha-down3{
+
+    width: 38px;
+    height: 40px;
+  }
+  .flecha-down4{
+
+    width: 38px;
+    height: 40px;
+  }
+  .layer{
+    margin: 0;
+    top: 45%;
+    text-align: right;
+    right: 5%;
+  }
+  .sublayer{
+    margin: 0;
+    text-align: right;
+    top: 60%;
+    right: 2%;
+  }
+  .layer1{
+    margin: 0;
+    top: 45%;
+    text-align: right;
+    right: 10%;
+  }
+  .sublayer1{
+    margin: 0;
+    text-align: right;
+    top: 60%;
+    right: 4%;
+  }
+  .titulo{
+    font-size: 40px;
+  }
+  .subtitulo{
+    font-size: 25px;
+  }
+  /*FIN MARKETING DIGITAL & SOCIAL MEDIA*/
+  /*HOLA*/
+  .contenedor{
+    width: 100%;
+    margin-left: 0px;
+  }
+  .izq{
+    width: 50%;
+  }
+  .der{
+    width: 50%;
+  }
+  .hola{
+    font-size: 80px;
+  }
+  .somos{
+    font-size: 17px;
+    left: 90px;
+  }
+  .queremos{
+    font-size: 13px;
+    left: 50px;
+  }
+  .item{
+    height: 4%;
+  }
+  .comentario{
+    height: 10%;
+  }
+  /*fin hola*/
+  /*TABLA*/
+  .tabla{
+    width: 75%;
+    height: 750px;
+    margin-left: 12%;
+  }
+  .text1{font-size: 14px;left: 5px;}
+  .text2{font-size: 22px;left: 2px;}
+  .text3{font-size: 22px;left: 2px;}
+  .text4{font-size: 14px;top: 35;left: 5px;}
+  .tdImg0:hover img {transform: none;}
+  .tdImg1:hover img {transform: none;}
+  .tdImg2:hover img {transform: none;}
+  .tdImg3:hover img {transform: none;}
+  .tdImg4:hover img {transform: none;}
+  .tdImg5:hover img {transform: none;}
+  .tdImg6:hover img {transform: none;}
+  .tdImg7:hover img {transform: none;}
+  .ca{
+    height: 150px;
+  }
+  .ca1{
+    margin-top: 150px;
+    height: 150px;
+  }
+  .ca2{
+    margin-top: 300px;
+    height: 150px;
+  }
+  .ca3{
+    margin-top: 450px;
+    height: 150px;
+  }
+  .tdImg0{
+    height: 150px;
+  }
+  .tdImg1{
+    height: 300px;
+  }
+  .tdImg2{
+    margin-top: 150px;
+    height: 300px;
+  }
+  .tdImg3{
+    margin-top: 150px;
+    height: 150px;
+  }
+  .tdImg4{
+    margin-top: 300px;
+    height: 150px;
+  }
+  .tdImg5{
+    margin-top: 300px;
+    height: 300px;
+  }
+  .tdImg6{
+    margin-top: 450px;
+    height: 150px;
+  }
+  /*fin tabla*/
+  /*footer*/
+  .footer{
+    width: 80%;
+    margin-left: 40px;
+  }
+  .list-iconos li a img{
+    width: 40px;
+    height: 40px;
+  }
+  .list-contactos li{
+    margin: 0 20px 10px 0;
+    font-size: 15px;
+  }
+  /*fin footer*/
+  /*CONTACTOS*/
+    #OderbizContactos{
+      height: 350px;
+    }
+    #OderbizContactos ul li{
+      width: 230px;
+      height: 100px;
+    }
+    .letra2{
+      font-size: 20px;
+    }
+    .li1{
+      font-size: 13px;
+    }
+    .li2{
+      font-size: 13px;
+    }
+    .li3{
+      font-size: 13px;
+    }
+    .h1{
+      font-size: 40px;
+    }
+    .p{
+      font-size: 20px;
+    }
+  /*FIN CONTACTOS*/
+}
+/*Movil L*/
+@media screen and (max-width: 425px){
+  .HomeImg{
+    position: absolute;
+    /*border: 0.1px solid red;*/
+    top: 40%;
+    left: 10%;
+    width: 300px;
+    height: 150px;
+  }
+  /*header*/
+  .header .bar #traduction{
+    right: 60px;
+  }
+  .header .bar #toggle{
+    right: -30px;
+  }
+  /*fin header*/
+  /*MARKETING DIGITAL & SOCIAL MEDIA*/
+  .layer{
+    margin: 0;
+    top: 45%;
+    text-align: right;
+    right: -35px;
+  }
+  .sublayer{
+    margin: 0;
+    text-align: right;
+    top: 55%;
+    right: -45px;
+  }
+  .layer1{
+    margin: 0;
+    top: 45%;
+    text-align: right;
+    right: 0;
+  }
+  .sublayer1{
+    margin: 0;
+    text-align: right;
+    top: 55%;
+    right: -28px;
+  }
+  .titulo{
+    font-size: 35px;
+  }
+  .subtitulo{
+    font-size: 20px;
+  }
+  /*FIN MARKETING DIGITAL & SOCIAL MEDIA*/
+  /*hola*/
+  .contenedor{
+    width: 85%;
+    margin-left: 0;
+  }
+  .izq{
+    width: 100%;
+    position: relative;
+    left: -70px;
+    margin-bottom: 40px;
+    /*float: left;*/
+  }
+  .der{
+    width: 100%;
+    position: relative;
+    /*float: right;*/
+    left: 5px;
+    margin: 0;
+  }
+  .hola{
+    font-size: 50px;
+  }
+  .somos{
+    font-size: 17px;
+    left: 90px;
+    bottom: 0;
+    margin-bottom: 0;
+  }
+  .queremos{
+    top: 0;
+    font-size: 13px;
+    left: 50px;
+  }
+  /*fin hola*/
+  /*formulario*/
+  .item {
+      width: 75%;
+      height: 30px;
+  }
+  .comentario {
+      width: 75%;
+      height: 70px;
+  }
+  .boton {
+      width: 35%;
+      height: 35px;
+  }
+  /*fin formulario*/
+  /*Tabla*/
+  .tabla{
+    width: 88%;
+    height: 1510px;
+    margin-right: 0;
+    margin-left: 3%;
+  }
+  .text1{
+    font-size: 14px;
+    left: 5px;
+  }
+  .text2{
+    font-size: 25px;
+    left: 0;
+  }
+  .text3{
+    font-size: 25px;
+    left: 0;
+  }
+  .text4{
+    font-size: 14px;
+    top: 35;
+    left: 5px;
+  }
+  .tdImg0{
+    width: 50%;
+  	height: 150px;
+  }
+  .tdImg1{
+    width: 50%;
+    height: 300px;
+    margin-top: 450px;
+    right: 0;
+  }
+  .tdImg2{
+  	width: 50%;
+  	height: 300px;
+    margin-top: 0;
+    margin-left: 50%;
+  }
+  .tdImg3{
+    margin-top: 300px;
+    left: 0;
+    width: 100%;
+    height: 150px;
+  }
+  .tdImg4{
+    width: 100%;
+    height: 150px;
+    margin-top: 750px;
+    left: 0;
+  }
+  .tdImg5{
+    width: 50%;
+    height: 150px;
+    left: 0;
+    margin-top: 450px;
+  }
+  .tdImg6{
+    width: 50%;
+    height: 150px;
+    left: 0;
+    margin-top: 1050px;
+  }
+  .tdImg7{
+    display: block;
+    width: 50%;
+    height: 300px;
+    right: 0;
+    margin-top: 900px;
+    margin-left: 50%;
+  }
+  .ca{
+    margin-top: 600px;
+    left: 0;
+    width: 50%;
+    height: 150px;
+  }
+  .ca1{
+    left: 0;
+    margin-top: 150px;
+    width: 50%;
+  	height: 150px;
+  }
+  .ca2{
+    width: 50%;
+    height: 150px;
+    left: 0;
+    margin-top: 900px;
+  }
+  .ca3{
+    width: 100%;
+    height: 150px;
+    left: 0;
+    margin-top: 1200px;
+  }
+  /*fin tabla*/
+  /*footer*/
+  .footer{
+    width: 80%;
+    margin-left: 15px;
+  }
+  .list-iconos li{
+    margin: 20px 5px;
+  }
+  /*fin footer*/
+  /*nav modal*/
+  #nav-modal{
+      top: 12%;
+    }
+  #redes{
+    top: 7%;
+    margin-left: 12%;
+    width: 75%;
+    }
+  #redes  li a img{
+      width: 50px;
+      height: 50px;
+    }
+  #nav-modal a li{
+    font-size: 30px;
+  }
+  /*fin nav modal*/
+  /*CONTACTOS*/
+    #OderbizContactos{
+      height: 380px;
+    }
+    #OderbizContactos ul{
+      top: -50px;
+    }
+    .letra2{
+      font-size: 20px;
+    }
+    .li1{
+      font-size: 13px;
+      border-right: 0;
+      border-bottom: 1px solid white;
+    }
+    .li2{
+      font-size: 13px;
+      border-right: 0;
+      border-bottom: 1px solid white;
+    }
+    .li3{
+      font-size: 13px;
+    }
+    .h1{
+      top: 20px;
+      font-size: 30px;
+    }
+    .p{
+      top: -25px;
+      font-size: 15px;
+    }
+    .encuentranos{
+      font-size: 17px;
+      left: -10px;
+    }
+    .list-iconos-contactos{
+      left: -50px;
+    }
+    .list-iconos-contactos li{
+      margin: 0 0.2em;
+    }
+    .list-iconos-contactos li a img{
+      width: 50px;
+      height: 50px;
+    }
+  /*FIN CONTACTOS*/
+}
+/*Movil M*/
+@media screen and (max-width: 375px){
+  .HomeImg{
+    position: absolute;
+    /*border: 0.1px solid red;*/
+    top: 40%;
+    left: 10%;
+    width: 250px;
+    height: 125px;
+  }
+  /*MARKETING DIGITAL & SOCIAL MEDIA*/
+  .layer{
+    margin: 0;
+    top: 45%;
+    text-align: right;
+    right: -35px;
+  }
+  .sublayer{
+    margin: 0;
+    text-align: right;
+    top: 55%;
+    right: -45px;
+  }
+  .layer1{
+    margin: 0;
+    top: 45%;
+    text-align: right;
+    right: 0;
+  }
+  .sublayer1{
+    margin: 0;
+    text-align: right;
+    top: 55%;
+    right: -28px;
+  }
+  .titulo{
+    font-size: 30px;
+  }
+  .subtitulo{
+    font-size: 18px;
+  }
+  /*FIN MARKETING DIGITAL & SOCIAL MEDIA*/
+    /*nav modal*/
+  #nav-modal{
+    top: 15%;
+    }
+  #redes{
+    top: 5%;
+    margin-left: 10%;
+    width: 80%;
+    }
+  #redes  li a img{
+      width: 40px;
+      height: 40px;
+    }
+  #nav-modal a li{
+    font-size: 30px;
+  }
+  /*fin nav modal*/
+  /*hola*/
+  .contenedor {
+    width: 95%;
+    margin-left: 0;
+  }
+  .izq{
+    width: 100%;
+    position: relative;
+    left: -70px;
+    /*float: left;*/
+  }
+  .der{
+    width: 100%;
+    position: relative;
+    /*float: right;*/
+    left: 5px;
+    margin: 0;
+  }
+  .hola{
+    font-size: 50px;
+  }
+  .somos{
+    font-size: 17px;
+    left: 90px;
+    bottom: 0;
+    margin-bottom: 0;
+  }
+  .queremos{
+    top: 0;
+    font-size: 13px;
+    left: 50px;
+  }
+  /*fin hola*/
+  /*tabla*/
+  .tabla{
+    width: 85%;
+    height: 1510px;
+    margin-right: 0;
+    margin-left: 3%;
+  }
+  .text1{
+    font-size: 13px;
+  }
+  .text2{
+    font-size: 22px;
+  }
+  .text3{
+    font-size: 22px;
+  }
+  .text4{
+    font-size: 13px;
+  }
+  /*fin tabla*/
+  /*footer*/
+  .list-iconos li{
+    margin: 10px 0;
+  }
+  /*fin footer*/
+  /*CONTACTOS*/
+  #OderbizContactos ul{
+    left: -20px;
+  }
+    .encuentranos{
+      font-size: 15px;
+      left: -15px;
+    }
+    .list-iconos-contactos{
+      left: -50px;
+    }
+    .list-iconos-contactos li{
+      margin: 0 0.1em;
+    }
+    .list-iconos-contactos li a img{
+      width: 30px;
+      height: 30px;
+    }
+  /*FIN CONTACTOS*/
+}
+/*Movil S*/
+@media screen and (max-width: 320px){
+  
+
+  /*MARKETING DIGITAL & SOCIAL MEDIA*/
+  .HomeImg{
+    position: absolute;
+    /*border: 0.1px solid red;*/
+    top: 45%;
+    left: 15%;
+    width: 200px;
+    height: 100px;
+  }
+  .layer{
+    margin: 0;
+    top: 45%;
+    text-align: right;
+    right: -35px;
+  }
+  .sublayer{
+    margin: 0;
+    text-align: right;
+    top: 55%;
+    right: -45px;
+  }
+  .layer1{
+    margin: 0;
+    top: 45%;
+    text-align: right;
+    right: 0;
+  }
+  .sublayer1{
+    margin: 0;
+    text-align: right;
+    top: 55%;
+    right: -28px;
+  }
+  .titulo{
+    font-size: 30px;
+  }
+  .subtitulo{
+    font-size: 18px;
+  }
+  /*FIN MARKETING DIGITAL & SOCIAL MEDIA*/
+  /*hola*/
+  .contenedor {
+    width: 100%;
+    margin-left: 0;
+  }
+  .izq{
+    width: 100%;
+    position: relative;
+    left: -70px;
+    margin-bottom: 40px;
+    /*float: left;*/
+  }
+  .der{
+    width: 100%;
+    position: relative;
+    /*float: right;*/
+    left: 5px;
+    margin: 0;
+  }
+  .hola{
+    font-size: 50px;
+  }
+  .somos{
+    font-size: 10px;
+    left: 60px;
+    bottom: 0;
+    margin-bottom: 0;
+  }
+  .queremos{
+    top: 0;
+    font-size: 8px;
+    left: 70px;
+  }
+  /*fin hola*/
+  /*formulario*/
+  .contenedor {
+    width: 85%;
+    margin-left: 2%;
+  }
+  .izq{
+    width: 100%;
+    position: relative;
+    float: left;
+  }
+  .der{
+    width: 100%;
+    position: relative;
+    float: right;
+    left: 0;
+    margin: 0;
+  }
+  .item {
+      width: 85%;
+  }
+  .comentario {
+      width: 85%;
+  }
+  .boton {
+      width: 35%;
+      height: 35px;
+  }
+  .somos{
+    font-size: 15px;
+  }
+  .queremos{
+    font-size: 15px;
+  }
+  /*fin formulario*/
+  /*tabla*/
+
+  /*fin tabla*/
+  /*footer*/
+  .footer{
+    width: 75%;
+    margin: 0 0 0 3px;
+  }
+  .list-iconos li{
+    margin: 5px 0;
+  }
+  .list-iconos li a{
+    padding: 0;
+  }
+  .list-iconos li a img{
+    width: 30px;
+    height: 30px;
+  }
+  .list-contactos li{
+    font-size: 10px;
+  }
+  /*fin footer*/
+}
+/*Copyright © 2017 | Oderbiz*/
