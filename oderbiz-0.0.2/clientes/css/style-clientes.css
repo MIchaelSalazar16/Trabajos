@@ -1,8 +1,10 @@
 @font-face {
   font-family: 'LatoLight';
-  src: url('../../font/Lato-Light.ttf');
+  src: url('../font/Lato-Light.ttf');
 }
+
 body a{
+  font-family: 'LatoLight';
     transition:0.5s all;
 	-webkit-transition:0.5s all;
 	-moz-transition:0.5s all;
@@ -38,31 +40,27 @@ body{
 
 /*---portfolio----*/
 .properties {
-  padding: 4em 0;
+  padding: 0;
+  margin: 0;
+  margin-left: 0;
   text-align:center;
 }
-.models h3 {
-    font-size: 3.5em;
-    text-transform: capitalize;
-    font-family: 'Buda-Light';
-    color: #994868;
-    margin-bottom: 0.5em;
-    font-weight: 600;
-}
+
+
 .view {
   width: 360px;
   height: 245px;
-  margin: 10px;
   float: left;
-  border: 10px solid #fff;
   overflow: hidden;
   position: relative;
   text-align: center;
-  -webkit-box-shadow: 1px 1px 2px #BCBCBC;
+  /*-webkit-box-shadow: 1px 1px 2px #BCBCBC;
   -moz-box-shadow: 1px 1px 2px #BCBCBC;
-  box-shadow: 1px 1px 2px #BCBCBC;
+  box-shadow: 1px 1px 2px #BCBCBC;*/
   cursor: default;
   padding: 0;
+  margin-bottom: 2em;
+  border-radius: 10px;
 
 }
 
@@ -70,18 +68,19 @@ body{
     opacity: 0;
 }
 
-
-.view .mask,.view .content {
-   width: 341px;
-   height: 225px;
+.view .mask{
+   width: 100%;
+   height: 100%;
    position: absolute;
    overflow: hidden;
    top: 0;
    left: 0;
 }
 .view img {
+  width: 100%;
    display: block;
    position: relative;
+   border-radius: 10px;
 }
 .view h5{
     font-style: italic;
@@ -93,6 +92,9 @@ body{
     width: 63%;
 }
 .view-fourth img {
+  border-radius: 10px;
+  /*border: 0.01px solid black;*/
+  width: 100%;
    -webkit-transition: all 0.4s ease-in-out 0.2s;
    -moz-transition: all 0.4s ease-in-out 0.2s;
    -o-transition: all 0.4s ease-in-out 0.2s;
@@ -104,6 +106,7 @@ body{
 }
 .view-fourth .mask {
    background: #51247F;
+   width: 100%;
    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
    filter: alpha(opacity=0);
    opacity: 0;
@@ -132,6 +135,7 @@ body{
    transition: all 0.5s ease-in-out;
 }
 .view-fourth:hover .mask {
+  /*background-image: url("../img/g1.jpg");*/
    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
    filter: alpha(opacity=100);
    opacity: 1;
@@ -172,7 +176,7 @@ body{
    transition-delay: 0.5s;
 }
 .properties-grids {
-  margin-top: 5em;
+  margin:7em 0;
 }
 /*---//portfolio----*/
 

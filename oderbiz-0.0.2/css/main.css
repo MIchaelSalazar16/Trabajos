@@ -6,6 +6,7 @@
   font-family: 'LatoLight';
   src: url('../font/Lato-Light.ttf');
 }
+
 @font-face {
   font-family: 'LatoSemibold';
   src: url('../font/Lato-Semibold.ttf');
@@ -14,7 +15,7 @@
 body{
   margin: 0;
   padding: 0;
-  font-family: 'Lato-Light';
+  font-family: 'LatoLight';
 }
 
 .HomeImg{

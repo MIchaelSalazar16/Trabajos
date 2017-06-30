@@ -1,22 +1,18 @@
-/*
-    Theme Name: Lonely
-    Theme URL: https://bootstrapmade.com/free-html-bootstrap-template-lonely/
-    Author: BootstrapMade
-    Author URL: https://bootstrapmade.com
-*/
-/* ==== Google font ==== */
-@import url(https://fonts.googleapis.com/css?family=Varela+Round|Open+Sans:400,300,600,400italic,700);
 
+@font-face {
+  font-family: 'LatoLight';
+  src: url('../font/Lato-Light.ttf');
+}
 
 body {
-    width: 100%;
-    height: 100%;
-	font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  height: 100%;
+	font-family: 'LatoLight';
 	font-weight: 400;
-    color: #888;
+  color: #888;
 	font-size: 16px;
 	line-height: 1.6em;
-    background-color: #fff;
+  background-color: #fff;
 }
 
 html {
@@ -304,18 +300,33 @@ hr {
 
 .intro {
 	width:100%;
-	position:relative;	
-	background: url(../img/bg1.jpg) no-repeat top center;
-	background-size: cover;
+  height: 100%;
+	position:relative;
+  vertical-align: middle;
+  text-align: center;
+  /*border: 1px solid red;*/
+	/*background-size: cover;*/
+}
+.banner-img{
+  position: relative;
+  top: 0;
+  margin: 0;
+  width: auto;
+  height: 100%;
 }
 
 #intro.intro {
-	padding:200px 0 150px 0;
+  	/*padding:0 0 150px 0;*/
 }
 
 .intro .slogan {
 	text-align: center;
-
+  position: absolute;
+  padding: 5px;
+  top: 35%;
+  left: 43.5%;
+  background: rgba(81,36,127,0.7);
+  border-radius: 10%;
 }
 
 .intro .page-scroll {
@@ -354,6 +365,7 @@ hr {
 .intro .slogan h4 {
 	color: #fff;
 	text-shadow: -1px 1px 1px #000;
+
 }
 
 
@@ -378,7 +390,7 @@ hr {
     display: block;
     width: 100%;
     height: auto;
-}	
+}
 
 
 /* ===========================
@@ -427,6 +439,7 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 	background: #fff;
 }
 
+
 .validation {
     color: red;
     display:none;
@@ -466,7 +479,7 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 footer {
 	text-align: center;
 	padding: 50px 0 30px;
-	
+
 }
 
 footer p {
@@ -488,7 +501,7 @@ footer a:hover {
 Parallax
 ============================= */
 
-#separator {	
+#separator {
 	background-image: url(../img/parallax-bg.jpg);
 }
 
@@ -500,7 +513,7 @@ Parallax
 	color: #fff;
 }
 
-#separator:after {	
+#separator:after {
 	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNgYGD4z0AswK4SAFXuAf8EPy+xAAAAAElFTkSuQmCC);
 	content: "";
 	position: absolute;
@@ -544,8 +557,8 @@ a.btn:hover {
 }
 
 .btn-circle.btn-dark {
-    border: 2px solid #666;
-    color: #666;
+    border: 2px solid #51247F;
+    color: #51247F;
 }
 
 
@@ -586,7 +599,7 @@ a.btn:hover {
     -moz-animation-timing-function: linear;
 }
 
-@-webkit-keyframes pulse {    
+@-webkit-keyframes pulse {
     0 {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -603,7 +616,7 @@ a.btn:hover {
     }
 }
 
-@-moz-keyframes pulse {    
+@-moz-keyframes pulse {
     0 {
         -moz-transform: scale(1);
         transform: scale(1);
@@ -626,8 +639,8 @@ a.btn:hover {
 .btn-skin:active,
 .btn-skin.active {
   color: #fff;
-  background-color: #666;
-  border-color: #666;
+  background-color: #EAC141;
+  border-color: #EAC141;
 }
 
 
@@ -653,9 +666,9 @@ a.btn:hover {
 
 @media (max-width:768px) {
 	.navbar-header .fa {
-		color: #666;
+		color: #51247F;
 	}
-	
+
 	.col-xs-6 {
 		margin-bottom: 30px;
 	}
@@ -666,17 +679,17 @@ a.btn:hover {
 	.navbar-custom .nav.navbar-nav {
     background-color: rgba(255,255,255,.4);
 	}
-	
+
 	.navbar.navbar-custom.navbar-fixed-top {
 		margin-bottom: 30px;
 	}
 
-	
+
 	.page-scroll a {
 		width: 40px;
 		height: 40px;
 		margin-top: 10px;
 		font-size: 20px;
 	}
-	
+
 }

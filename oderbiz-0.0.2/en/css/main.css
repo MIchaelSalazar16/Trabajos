@@ -63,6 +63,7 @@ body{
     font-family: 'SansationBold';
     color: #fff;
     margin-bottom: 100px;
+    /*margin-right: -40px;*/
 }
 
 .subtitulo {
@@ -99,7 +100,7 @@ img{
 .sublayer{
     position: absolute;
     top: 60%;
-    right: 5%;
+    right: 10%;
     transform: translate(-50%, -50%);
     text-align: right;
 }

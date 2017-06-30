@@ -81,6 +81,7 @@ body{
 /*FIN IMAGEN*/
 /*NAV BAR*/
 .nav-bar{
+  /*font-family: 'LatoLight';*/
   position: absolute;
   bottom: 0;
   background-color: #51247F;
@@ -300,7 +301,7 @@ body{
     width: 76%;
   }
   /* fin seccion del texto*/
-  
+
 }
 
 /*PCs Portatiles L*/
@@ -343,7 +344,7 @@ body{
     width: 57%;
   }
   /* fin seccion del texto*/
-  
+
 
 }
 /*PCs Portatiles M*/
@@ -390,7 +391,7 @@ body{
     font-size: 30px;
   }
   /* fin seccion del texto*/
-  
+
 }
 /*Tablets*/
 @media screen and (max-width: 768px) {
@@ -452,7 +453,7 @@ body{
     height: 120px;
   }
   /* fin seccion del texto*/
-  
+
 }
 @media screen and (max-width: 425px){
   /*IMAGEN*/
@@ -517,7 +518,7 @@ body{
     height: 90px;
   }
   /* fin seccion del texto*/
-  
+
 }
 /*Movil M*/
 @media screen and (max-width: 375px){
@@ -578,7 +579,7 @@ body{
     height: 60px;
   }
   /* fin seccion del texto*/
- 
+
 }
 /*Movil S*/
 @media screen and (max-width: 320px){

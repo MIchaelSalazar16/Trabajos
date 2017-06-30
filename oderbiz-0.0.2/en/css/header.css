@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'LatoLight';
+  src: url('../font/Lato-Light.ttf');
+}
+
 .icon{
   position: absolute;
   top: 50%;
@@ -56,6 +61,7 @@
 }
 
 .header{
+  font-family: 'LatoLight';
   position:fixed;
   top:0;
   left:0;
@@ -64,9 +70,9 @@
   margin-top:0;
   height:70px;
   padding-top:0px;
-  z-index:2;
-  background: #FFF;
-  border-bottom: 0.5px solid #51247F;
+  z-index:2000;
+  /*background: #FFF;
+  border-bottom: 0.5px solid #51247F;*/
 }
 .header .bar{
   position: relative;
@@ -78,6 +84,7 @@
   float: left;
   text-decoration: none;
   left: 35px;
+  top: 15px;
   width: 0px;
   z-index: 2;
 }
@@ -129,7 +136,7 @@
   position: fixed;
 }
 #redes{
-    top: 20%;
+    top: 10%;
     margin: 0;
     margin-left: 35%;
     padding: 0;
@@ -155,7 +162,7 @@
   margin: 0;
   margin-left: -40px;
   position: relative;
-  top: 20%;
+  top: 10%;
   z-index: 300;
 }
 
