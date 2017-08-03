@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    
+
 	$('.icon').click(function(){
 
 		$('.icon').toggleClass('active');
@@ -52,19 +52,23 @@ $(document).ready(function(){
 	$('#ES').css({
 		'color':'#EAC141'
 	});
-    
-    $('.fil').css({
-		'opacity':'0'
-	});
-    
-   $('.cli1').smoove({});
-   $('.cli2').smoove({});
-   $('.cli6').smoove({moveX:'-200px'});
-   $('.cli7').smoove({moveY:'200px'});
-   $('.cli8').smoove({moveX:'200px'});
-   $('.cli9').smoove({moveX:'-200px'});
-                      
-   
+
+  //   $('.fil').css({
+	// 	'opacity':'0'
+	// });
+
+	$("#banner-img1").mouseover(function(){
+        $(".img-hover").css("display", "block");
+        $(".img-hover2").css("display", "none");
+				$(".logo1").css("display", "block");
+				$(".logo2").css("display", "none");
+    });
+    $("#banner-img2").mouseover(function(){
+         $(".img-hover").css("display", "none");
+         $(".img-hover2").css("display", "block");
+				 $(".logo2").css("display", "block");
+				 $(".logo1").css("display", "none");
+     });
 
 });
 
