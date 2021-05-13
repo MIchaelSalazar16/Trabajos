@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-13T21:08:42.618Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="MsquxmQk8lFR4yALefBi" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-13T22:13:12.819Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="s8KjaHxQt0tHlpGSMgAW" version="14.6.13" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="796" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
           <mxGeometry y="20" width="200" height="740" as="geometry" />
         </mxCell>
         <mxCell id="mNCRRvHvJrN7CzwD1Efo-1" value="&lt;ul style=&quot;font-size: 10px;&quot;&gt;&lt;li style=&quot;text-align: justify; font-size: 10px;&quot;&gt;&lt;span style=&quot;font-size: 10px; text-align: left;&quot;&gt;Matriz de impacto&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify; font-size: 10px;&quot;&gt;&lt;span style=&quot;font-size: 10px; text-align: left;&quot;&gt;Diseño de la solución (según matriz de impacto)&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify; font-size: 10px;&quot;&gt;&lt;span style=&quot;font-size: 10px; text-align: left;&quot;&gt;Escaneo de código&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify; font-size: 10px;&quot;&gt;&lt;span style=&quot;font-size: 10px; text-align: left;&quot;&gt;CheckList de instalación&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify; font-size: 10px;&quot;&gt;&lt;span style=&quot;font-size: 10px; text-align: left;&quot;&gt;Manual de usuario&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify; font-size: 10px;&quot;&gt;&lt;span style=&quot;font-size: 10px; text-align: left;&quot;&gt;Pruebas técnicas&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify; font-size: 10px;&quot;&gt;&lt;span style=&quot;font-size: 10px; text-align: left;&quot;&gt;Acta de pase a producción&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify; font-size: 10px;&quot;&gt;&lt;span style=&quot;font-size: 10px; text-align: left;&quot;&gt;Definición funcional o historias de usuarios.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div style=&quot;text-align: justify; font-size: 10px;&quot;&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;imageAspect=1;recursiveResize=1;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;horizontal=1;textDirection=ltr;" vertex="1" parent="77e6c97f196da883-2">
-          <mxGeometry x="10" y="90" width="180" height="220" as="geometry" />
+          <mxGeometry x="10" y="90" width="180" height="150" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-3" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;VERSIONADOR&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="200" y="20" width="160" height="740" as="geometry" />
@@ -27,6 +27,9 @@
         </mxCell>
         <mxCell id="wJavJA8ua_YX4PM_Y5JR-1" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;PRODUCCIÓN&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="750" y="20" width="170" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="mNCRRvHvJrN7CzwD1Efo-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="77e6c97f196da883-1" source="77e6c97f196da883-8" target="mNCRRvHvJrN7CzwD1Efo-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
