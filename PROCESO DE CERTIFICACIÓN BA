@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-17T18:01:07.612Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="GEOGsCAYnyLNIpNoZ9C1" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-17T18:06:48.270Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="yu3_GH-ODhV5jhCa9yfj" version="14.6.13" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="796" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -17,19 +17,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="c4axcF17QnDrTiZ_1vac-38" value="Corregir el desarrollo, mediante la mejora o defecto levantado por QA." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-2">
-          <mxGeometry x="50.004999999999995" y="1010" width="120" height="60" as="geometry" />
+          <mxGeometry x="50.004999999999995" y="920" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="c4axcF17QnDrTiZ_1vac-45" value="Entregar en la mejora o defecto el parche con los cambios respectivos y realizar un comentario en la misma de la versión del parche, para que el versionador tenga en cuenta." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-2">
-          <mxGeometry x="35" y="1090" width="150" height="110" as="geometry" />
+          <mxGeometry x="35" y="1000" width="150" height="110" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-3" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;VERSIONADOR&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="210" y="20" width="160" height="2490" as="geometry" />
         </mxCell>
         <mxCell id="c4axcF17QnDrTiZ_1vac-20" value="Versiona" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-3">
-          <mxGeometry x="30" y="450" width="100" height="30" as="geometry" />
+          <mxGeometry x="30" y="430" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="c4axcF17QnDrTiZ_1vac-22" value="Instala" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-3">
-          <mxGeometry x="30" y="510" width="100" height="30" as="geometry" />
+          <mxGeometry x="30" y="490" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="c4axcF17QnDrTiZ_1vac-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="77e6c97f196da883-3" source="c4axcF17QnDrTiZ_1vac-20" target="c4axcF17QnDrTiZ_1vac-22">
           <mxGeometry relative="1" as="geometry">
@@ -40,10 +40,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="c4axcF17QnDrTiZ_1vac-60" value="Versiona" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-3">
-          <mxGeometry x="30" y="1180" width="100" height="30" as="geometry" />
+          <mxGeometry x="30" y="1090" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="c4axcF17QnDrTiZ_1vac-61" value="Instala" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-3">
-          <mxGeometry x="30" y="1285" width="100" height="30" as="geometry" />
+          <mxGeometry x="30" y="1185" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-4" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;QA&lt;/font&gt;&lt;/font&gt;" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="370" y="20" width="210" height="2490" as="geometry" />
@@ -58,7 +58,7 @@
           <mxGeometry x="40" y="130" width="120" height="115" as="geometry" />
         </mxCell>
         <mxCell id="c4axcF17QnDrTiZ_1vac-16" value="Crear las tareas de Versionamiento e Instalación (asignadas al versionador), y una tarea de Revisión asignada al QA. Si los cambios son sobre una APP, crear 2 tareas de Intalación (una asignada al versionador y otra al QA)." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-4">
-          <mxGeometry x="20" y="290" width="160" height="140" as="geometry" />
+          <mxGeometry x="20" y="280" width="160" height="140" as="geometry" />
         </mxCell>
         <mxCell id="c4axcF17QnDrTiZ_1vac-9" value="SI" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="77e6c97f196da883-4" source="c4axcF17QnDrTiZ_1vac-8" target="c4axcF17QnDrTiZ_1vac-16">
           <mxGeometry relative="1" as="geometry">
@@ -66,16 +66,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="c4axcF17QnDrTiZ_1vac-18" value="Elaborar el plan de pruebas en base a:&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;Historias de usuario&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Definición funcional&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Manual de usuario&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Pruebas Técnicas&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-4">
-          <mxGeometry x="27.5" y="570" width="155" height="120" as="geometry" />
+          <mxGeometry x="30" y="540" width="155" height="120" as="geometry" />
         </mxCell>
         <mxCell id="c4axcF17QnDrTiZ_1vac-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.448;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="77e6c97f196da883-4" source="c4axcF17QnDrTiZ_1vac-24" target="c4axcF17QnDrTiZ_1vac-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="c4axcF17QnDrTiZ_1vac-24" value="Iniciar la tarea de revisión en REDMINE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-4">
-          <mxGeometry x="40" y="495" width="120" height="60" as="geometry" />
+          <mxGeometry x="39.22" y="487.5" width="120" height="35" as="geometry" />
         </mxCell>
         <mxCell id="c4axcF17QnDrTiZ_1vac-28" value="Ejecución de pruebas." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-4">
-          <mxGeometry x="28.75" y="710" width="152.5" height="60" as="geometry" />
+          <mxGeometry x="46.88" y="680" width="121.25" height="30" as="geometry" />
         </mxCell>
         <mxCell id="c4axcF17QnDrTiZ_1vac-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="77e6c97f196da883-4" source="c4axcF17QnDrTiZ_1vac-18" target="c4axcF17QnDrTiZ_1vac-28">
           <mxGeometry relative="1" as="geometry">
@@ -83,13 +83,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="c4axcF17QnDrTiZ_1vac-32" value="Documentación de evidencias." style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="77e6c97f196da883-4">
-          <mxGeometry x="45" y="790" width="120" height="60" as="geometry" />
+          <mxGeometry x="50" y="730" width="115" height="40" as="geometry" />
         </mxCell>
         <mxCell id="c4axcF17QnDrTiZ_1vac-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-4" source="c4axcF17QnDrTiZ_1vac-28" target="c4axcF17QnDrTiZ_1vac-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="c4axcF17QnDrTiZ_1vac-34" value="Levantar una mejora al desarrollador o un defecto, según corresponda." style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="77e6c97f196da883-4">
-          <mxGeometry x="45" y="1010" width="120" height="60" as="geometry" />
+          <mxGeometry x="48.13" y="920" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="c4axcF17QnDrTiZ_1vac-40" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-4" source="c4axcF17QnDrTiZ_1vac-36" target="c4axcF17QnDrTiZ_1vac-34">
           <mxGeometry relative="1" as="geometry" />
@@ -100,7 +100,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="c4axcF17QnDrTiZ_1vac-36" value="El desarrollo funciona de forma correcta?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="77e6c97f196da883-4">
-          <mxGeometry x="48.120000000000005" y="870" width="113.75" height="100" as="geometry" />
+          <mxGeometry x="51.25000000000001" y="790" width="113.75" height="100" as="geometry" />
         </mxCell>
         <mxCell id="c4axcF17QnDrTiZ_1vac-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-4" source="c4axcF17QnDrTiZ_1vac-32" target="c4axcF17QnDrTiZ_1vac-36">
           <mxGeometry relative="1" as="geometry" />
@@ -112,16 +112,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="c4axcF17QnDrTiZ_1vac-48" value="Se corrige el error detectado?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="77e6c97f196da883-4">
-          <mxGeometry x="40" y="1250" width="115" height="100" as="geometry" />
+          <mxGeometry x="40" y="1150" width="115" height="100" as="geometry" />
         </mxCell>
         <mxCell id="c4axcF17QnDrTiZ_1vac-50" value="Elaborar informe de certificación." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-4">
-          <mxGeometry x="37.5" y="1390" width="120" height="60" as="geometry" />
+          <mxGeometry x="37.97" y="1280" width="117.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="c4axcF17QnDrTiZ_1vac-56" value="Crear las tareas de versionamiento e instalación al versionador." style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="77e6c97f196da883-4">
-          <mxGeometry x="44.99999999999999" y="1150" width="120" height="60" as="geometry" />
+          <mxGeometry x="44.99999999999999" y="1060" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="c4axcF17QnDrTiZ_1vac-74" value="Certificación con usuario experto." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-4">
-          <mxGeometry x="37.5" y="1480" width="120" height="60" as="geometry" />
+          <mxGeometry x="37.19" y="1340" width="117.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="c4axcF17QnDrTiZ_1vac-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="77e6c97f196da883-4" source="c4axcF17QnDrTiZ_1vac-50" target="c4axcF17QnDrTiZ_1vac-74">
           <mxGeometry relative="1" as="geometry">
@@ -129,15 +129,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="c4axcF17QnDrTiZ_1vac-76" value="Usuario experto da su aprobación?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="77e6c97f196da883-4">
-          <mxGeometry x="39.06" y="1560" width="118.44" height="90" as="geometry" />
+          <mxGeometry x="36.25" y="1400" width="118.44" height="90" as="geometry" />
         </mxCell>
         <mxCell id="c4axcF17QnDrTiZ_1vac-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="77e6c97f196da883-4" source="c4axcF17QnDrTiZ_1vac-74" target="c4axcF17QnDrTiZ_1vac-76">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="98" y="1570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="c4axcF17QnDrTiZ_1vac-77" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="77e6c97f196da883-4">
-          <mxGeometry x="39.059999999999945" y="1690" width="120" height="60" as="geometry" />
+        <mxCell id="c4axcF17QnDrTiZ_1vac-77" value="Elaborar el checkList de seguridad." style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="77e6c97f196da883-4">
+          <mxGeometry x="36.25" y="1530" width="118.28" height="40" as="geometry" />
         </mxCell>
         <mxCell id="c4axcF17QnDrTiZ_1vac-78" value="SI" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-4" source="c4axcF17QnDrTiZ_1vac-76" target="c4axcF17QnDrTiZ_1vac-77">
           <mxGeometry relative="1" as="geometry" />
