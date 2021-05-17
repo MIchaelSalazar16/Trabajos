@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-17T19:48:05.356Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="v-HyxvGzLQW8bm6Tj8gX" version="14.6.13" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-05-17T19:58:21.892Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="-IoSIQXNdHnKyEF9RLK0" version="14.6.13" type="github" pages="2">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="796" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -192,10 +192,16 @@
         <mxCell id="c4axcF17QnDrTiZ_1vac-103" value="El requerimiento fue excluido o aprobado por seguridad?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fontSize=11;spacing=18;" vertex="1" parent="77e6c97f196da883-4">
           <mxGeometry x="78.13" y="2290" width="110" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="Hk13MD1Y7uad2W6AR6jw-1" value="&lt;b&gt;Req NUEVO&lt;/b&gt;&lt;br&gt;Enviar un correo al negocio solicitando una fecha de instalación propuesta del requerimeinto.&lt;br&gt;&lt;b&gt;Req EMERGENTE&lt;br&gt;&lt;/b&gt;Indicar al CAB que es emergente y se debe instalar lo antes posible." style="whiteSpace=wrap;html=1;rounded=1;fontSize=11;spacing=2;" vertex="1" parent="77e6c97f196da883-4">
+        <mxCell id="Hk13MD1Y7uad2W6AR6jw-1" value="&lt;b&gt;Req NUEVO&lt;/b&gt;&lt;br&gt;Enviar un correo al negocio solicitando una fecha de instalación propuesta del requerimeinto.&lt;br&gt;&lt;b&gt;Req EMERGENTE&lt;br&gt;&lt;/b&gt;Cuando se pase al CAB indicar que es emergente y se debe instalar lo antes posible." style="whiteSpace=wrap;html=1;rounded=1;fontSize=11;spacing=2;" vertex="1" parent="77e6c97f196da883-4">
           <mxGeometry x="37.2" y="2430" width="191.87" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Hk13MD1Y7uad2W6AR6jw-2" value="SI" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" edge="1" parent="77e6c97f196da883-4" source="c4axcF17QnDrTiZ_1vac-103" target="Hk13MD1Y7uad2W6AR6jw-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hk13MD1Y7uad2W6AR6jw-3" value="Crear la tarea de producción con los documentos:&lt;br&gt;&lt;b&gt;Req NUEVO&lt;/b&gt;&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;Acta de planificación de paso a producción&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Pruebas post-producción&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;CheckList de instalación&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Informe de capacitación&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Diseño de la solución&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Manual de usuario&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;b&gt;Req EMERGENTE&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;Acta de planificación de paso a producción&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;CheckList de instalación&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Pruebas post-producción&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=11;spacing=2;" vertex="1" parent="77e6c97f196da883-4">
+          <mxGeometry x="22.67" y="2570" width="220.93" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Hk13MD1Y7uad2W6AR6jw-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" edge="1" parent="77e6c97f196da883-4" source="Hk13MD1Y7uad2W6AR6jw-1" target="Hk13MD1Y7uad2W6AR6jw-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-5" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;SEGURIDAD&lt;/font&gt;&lt;/font&gt;" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
