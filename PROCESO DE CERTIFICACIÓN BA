@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-17T19:58:21.892Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="-IoSIQXNdHnKyEF9RLK0" version="14.6.13" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-05-17T20:05:23.816Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="U4K06OPD-0bRfOuT1VIl" version="14.6.13" type="github" pages="2">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="796" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -189,17 +189,11 @@
         <mxCell id="c4axcF17QnDrTiZ_1vac-101" value="Estar pendiente de la tarea se Seguridad y resolver cualquier novedad que manifiesten." style="whiteSpace=wrap;html=1;rounded=1;fontSize=11;spacing=2;" vertex="1" parent="77e6c97f196da883-4">
           <mxGeometry x="66.26" y="2190" width="133.74" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="c4axcF17QnDrTiZ_1vac-103" value="El requerimiento fue excluido o aprobado por seguridad?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fontSize=11;spacing=18;" vertex="1" parent="77e6c97f196da883-4">
-          <mxGeometry x="78.13" y="2290" width="110" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="Hk13MD1Y7uad2W6AR6jw-1" value="&lt;b&gt;Req NUEVO&lt;/b&gt;&lt;br&gt;Enviar un correo al negocio solicitando una fecha de instalación propuesta del requerimeinto.&lt;br&gt;&lt;b&gt;Req EMERGENTE&lt;br&gt;&lt;/b&gt;Cuando se pase al CAB indicar que es emergente y se debe instalar lo antes posible." style="whiteSpace=wrap;html=1;rounded=1;fontSize=11;spacing=2;" vertex="1" parent="77e6c97f196da883-4">
-          <mxGeometry x="37.2" y="2430" width="191.87" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="Hk13MD1Y7uad2W6AR6jw-2" value="SI" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" edge="1" parent="77e6c97f196da883-4" source="c4axcF17QnDrTiZ_1vac-103" target="Hk13MD1Y7uad2W6AR6jw-1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Hk13MD1Y7uad2W6AR6jw-1" value="&lt;b&gt;Req NUEVO&lt;/b&gt;&lt;br&gt;Enviar un correo al negocio solicitando una fecha de instalación propuesta del requerimiento.&lt;br&gt;&lt;b&gt;Req EMERGENTE&lt;br&gt;&lt;/b&gt;Cuando se pase al CAB indicar que es emergente y se debe instalar lo antes posible." style="whiteSpace=wrap;html=1;rounded=1;fontSize=11;spacing=2;" vertex="1" parent="77e6c97f196da883-4">
+          <mxGeometry x="37.190000000000005" y="2290" width="191.87" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Hk13MD1Y7uad2W6AR6jw-3" value="Crear la tarea de producción con los documentos:&lt;br&gt;&lt;b&gt;Req NUEVO&lt;/b&gt;&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;Acta de planificación de paso a producción&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Pruebas post-producción&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;CheckList de instalación&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Informe de capacitación&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Diseño de la solución&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Manual de usuario&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;b&gt;Req EMERGENTE&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;Acta de planificación de paso a producción&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;CheckList de instalación&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Pruebas post-producción&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=11;spacing=2;" vertex="1" parent="77e6c97f196da883-4">
-          <mxGeometry x="22.67" y="2570" width="220.93" height="240" as="geometry" />
+          <mxGeometry x="22.66" y="2430" width="220.93" height="240" as="geometry" />
         </mxCell>
         <mxCell id="Hk13MD1Y7uad2W6AR6jw-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" edge="1" parent="77e6c97f196da883-4" source="Hk13MD1Y7uad2W6AR6jw-1" target="Hk13MD1Y7uad2W6AR6jw-3">
           <mxGeometry relative="1" as="geometry" />
@@ -209,6 +203,12 @@
         </mxCell>
         <mxCell id="c4axcF17QnDrTiZ_1vac-105" value="Revisar el requerimiento y emitir informe de seguridad o excluir según donde afecta el cambio." style="whiteSpace=wrap;html=1;rounded=1;fontSize=11;spacing=2;" vertex="1" parent="77e6c97f196da883-5">
           <mxGeometry x="20" y="1825" width="145" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Hk13MD1Y7uad2W6AR6jw-5" value="El Req es aprobado o excluido?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fontSize=11;spacing=14;" vertex="1" parent="77e6c97f196da883-5">
+          <mxGeometry x="42.5" y="1920" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Hk13MD1Y7uad2W6AR6jw-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" edge="1" parent="77e6c97f196da883-5" source="c4axcF17QnDrTiZ_1vac-105" target="Hk13MD1Y7uad2W6AR6jw-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wJavJA8ua_YX4PM_Y5JR-1" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;PRODUCCIÓN&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="800" y="20" width="210" height="2850" as="geometry" />
@@ -251,8 +251,10 @@
         <mxCell id="c4axcF17QnDrTiZ_1vac-106" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" edge="1" parent="77e6c97f196da883-1" source="c4axcF17QnDrTiZ_1vac-82" target="c4axcF17QnDrTiZ_1vac-105">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="c4axcF17QnDrTiZ_1vac-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="77e6c97f196da883-1" source="c4axcF17QnDrTiZ_1vac-105" target="c4axcF17QnDrTiZ_1vac-103">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Hk13MD1Y7uad2W6AR6jw-7" value="SI" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="77e6c97f196da883-1" source="Hk13MD1Y7uad2W6AR6jw-5" target="Hk13MD1Y7uad2W6AR6jw-1">
+          <mxGeometry x="-0.8605" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
