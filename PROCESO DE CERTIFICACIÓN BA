@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-17T15:57:07.325Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="_LevrM8ZnBO95htCyALH" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-17T15:57:42.225Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="3ePFf0TNip34yKRn0g-r" version="14.6.13" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="796" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -28,7 +28,7 @@
         <mxCell id="c4axcF17QnDrTiZ_1vac-8" value="La documentación esta completa?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-4">
           <mxGeometry x="40" y="130" width="120" height="115" as="geometry" />
         </mxCell>
-        <mxCell id="c4axcF17QnDrTiZ_1vac-16" value="Crear las tareas de Versionamiento e Instalación (asignadas al versionador), y una tarea de Revisión asignada al QA. Si los cambios son sobre una APP, crear 2 tareas de Intalación (Una asignada al versionador y otra al QA)." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-4">
+        <mxCell id="c4axcF17QnDrTiZ_1vac-16" value="Crear las tareas de Versionamiento e Instalación (asignadas al versionador), y una tarea de Revisión asignada al QA. Si los cambios son sobre una APP, crear 2 tareas de Intalación (una asignada al versionador y otra al QA)." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-4">
           <mxGeometry x="20" y="290" width="160" height="140" as="geometry" />
         </mxCell>
         <mxCell id="c4axcF17QnDrTiZ_1vac-9" value="SI" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="77e6c97f196da883-4" source="c4axcF17QnDrTiZ_1vac-8" target="c4axcF17QnDrTiZ_1vac-16">
