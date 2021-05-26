@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-26T15:25:03.276Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="i9oeivWTQSkOtT4O8Hw0" version="14.7.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-05-26T15:26:04.545Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="lbMb9w7iQcDfB2QqN05h" version="14.7.2" type="github" pages="2">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="868" dy="463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -52,7 +52,7 @@
           <mxGeometry x="20" y="1090" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="c4axcF17QnDrTiZ_1vac-61" value="Instala" style="rounded=1;whiteSpace=wrap;html=1;" parent="77e6c97f196da883-3" vertex="1">
-          <mxGeometry x="20" y="1185" width="100" height="30" as="geometry" />
+          <mxGeometry x="20" y="1160" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-4" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;QA&lt;/font&gt;&lt;/font&gt;" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="360" y="20" width="260" height="3310" as="geometry" />
@@ -127,9 +127,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="c4axcF17QnDrTiZ_1vac-48" value="Se corrige el error detectado?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="77e6c97f196da883-4" vertex="1">
-          <mxGeometry x="69.53" y="1150" width="115" height="100" as="geometry" />
+          <mxGeometry x="67.5" y="1125" width="115" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="c4axcF17QnDrTiZ_1vac-50" value="Elaborar informe de certificación." style="rounded=1;whiteSpace=wrap;html=1;" parent="77e6c97f196da883-4" vertex="1">
+        <mxCell id="c4axcF17QnDrTiZ_1vac-50" value="Elaborar documentación de certificación." style="rounded=1;whiteSpace=wrap;html=1;" parent="77e6c97f196da883-4" vertex="1">
           <mxGeometry x="68.75999999999999" y="1280" width="117.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="c4axcF17QnDrTiZ_1vac-56" value="Crear las tareas de versionamiento e instalación al versionador." style="whiteSpace=wrap;html=1;rounded=1;" parent="77e6c97f196da883-4" vertex="1">
