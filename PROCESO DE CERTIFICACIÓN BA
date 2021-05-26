@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2021-05-26T15:37:09.956Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="YKP0G1IgCvo073i0lPfI" version="14.7.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-05-26T15:39:55.481Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="HlY4sdGNrkw2d3dIBD8X" version="14.7.2" type="github" pages="2">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="868" dy="463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="77e6c97f196da883-1" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit ; font-size: 14px&quot;&gt;PROCESO DE CERTIFICACIÓN BANCO DEL AUSTRO&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
+        <mxCell id="77e6c97f196da883-1" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit ; font-size: 14px&quot;&gt;PROCESO DE CERTIFICACIÓN BANCO DEL AUSTRO&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;strokeColor=#000099;" parent="1" vertex="1">
           <mxGeometry x="40" y="30" width="1010" height="3330" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-2" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;DESARROLLO&lt;/font&gt;&lt;/font&gt;" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
@@ -54,7 +54,7 @@
         <mxCell id="c4axcF17QnDrTiZ_1vac-61" value="Instala" style="rounded=1;whiteSpace=wrap;html=1;" parent="77e6c97f196da883-3" vertex="1">
           <mxGeometry x="20" y="1160" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="77e6c97f196da883-4" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;QA&lt;/font&gt;&lt;/font&gt;" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
+        <mxCell id="77e6c97f196da883-4" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;QA&lt;/font&gt;&lt;/font&gt;" style="swimlane;html=1;startSize=20;strokeColor=#FF0000;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="360" y="20" width="260" height="3310" as="geometry" />
         </mxCell>
         <mxCell id="c4axcF17QnDrTiZ_1vac-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="77e6c97f196da883-4" source="77e6c97f196da883-8" target="c4axcF17QnDrTiZ_1vac-8" edge="1">
@@ -239,7 +239,7 @@
             <mxPoint x="119" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="77e6c97f196da883-5" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;SEGURIDAD&lt;/font&gt;&lt;/font&gt;" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
+        <mxCell id="77e6c97f196da883-5" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;SEGURIDAD&lt;/font&gt;&lt;/font&gt;" style="swimlane;html=1;startSize=20;strokeColor=#FF0000;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="620" y="20" width="220" height="3310" as="geometry" />
         </mxCell>
         <mxCell id="c4axcF17QnDrTiZ_1vac-105" value="Revisar el requerimiento y emitir informe de seguridad o excluir según donde afecta el cambio." style="whiteSpace=wrap;html=1;rounded=1;fontSize=11;spacing=2;" parent="77e6c97f196da883-5" vertex="1">
@@ -299,7 +299,7 @@
         <mxCell id="6G3GRbGylAx718CzsQtE-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="77e6c97f196da883-1" source="c4axcF17QnDrTiZ_1vac-34" target="c4axcF17QnDrTiZ_1vac-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wJavJA8ua_YX4PM_Y5JR-1" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;PRODUCCIÓN&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
+        <mxCell id="wJavJA8ua_YX4PM_Y5JR-1" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;PRODUCCIÓN&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="swimlane;html=1;startSize=20;strokeColor=#FF0000;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="840" y="20" width="170" height="3310" as="geometry" />
         </mxCell>
         <mxCell id="6G3GRbGylAx718CzsQtE-8" value="Se instala el requerimiento en ambientes productivos." style="whiteSpace=wrap;html=1;rounded=1;fontSize=11;spacing=2;" vertex="1" parent="wJavJA8ua_YX4PM_Y5JR-1">
